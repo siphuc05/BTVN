@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Labmodel.Models.Employee>
+
+<h1>Danh sách nhân viên</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Họ tên</th>
+            <th>Giới tính</th>
+            <th>SĐT</th>
+            <th>Email</th>
+            <th>Lương</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.FullName</td>
+                <td>@emp.Gender</td>
+                <td>@emp.Phone</td>
+                <td>@emp.Email</td>
+                <td>@emp.Salary</td>
+                <td>@emp.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>

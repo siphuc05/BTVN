@@ -1,0 +1,26 @@
+﻿@model Category_Product.Models.Product
+@{
+    ViewData["Title"] = "Xóa sản phẩm";
+}
+
+<h2>Xóa sản phẩm</h2>
+
+<div class="alert alert-danger">
+    <h5>Bạn có chắc chắn muốn xóa sản phẩm này?</h5>
+</div>
+
+<div class="card" style="width: 25rem;">
+    <img src="@Model.Image" class="card-img-top" alt="@Model.Name" />
+    <div class="card-body">
+        <h4 class="card-title">@Model.Name</h4>
+        <p class="card-text"><strong>Giá:</strong> @string.Format("{0:N0} đ", Model.Price)</p>
+        <p class="card-text"><strong>Danh mục:</strong> @Model.Category?.Name</p>
+    </div>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <br />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
