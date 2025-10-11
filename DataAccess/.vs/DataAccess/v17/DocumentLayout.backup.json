@@ -26,9 +26,9 @@
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\DataAccess\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\DataAccess\\appsettings.json*",
-              "RelativeToolTip": "appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\DataAccess\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-07T08:35:31.899Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T08:20:17.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T08:20:17.599Z"
             }
           ]
         }
