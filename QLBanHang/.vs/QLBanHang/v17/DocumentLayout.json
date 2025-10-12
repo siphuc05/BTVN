@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\controllers\\loaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:controllers\\loaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\views\\loaisanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:views\\loaisanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\models\\cthoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:models\\cthoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|d:\\laptrinhweb\\demo\\btvn\\qlbanhang\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE648BD-C9B4-401F-8235-2C5BABDDEB23}|QLBanHang.csproj|solutionrelative:views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoaiSanPhamsController.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Controllers\\LoaiSanPhamsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoaiSanPhamsController.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Controllers\\LoaiSanPhamsController.cs",
+              "RelativeToolTip": "Controllers\\LoaiSanPhamsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T12:24:55.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Views\\LoaiSanPhams\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoaiSanPhams\\Create.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Views\\LoaiSanPhams\\Create.cshtml",
+              "RelativeToolTip": "Views\\LoaiSanPhams\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T12:24:19.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoaiSanPham.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Models\\LoaiSanPham.cs",
+              "RelativeDocumentMoniker": "Models\\LoaiSanPham.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Models\\LoaiSanPham.cs",
+              "RelativeToolTip": "Models\\LoaiSanPham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T11:45:17.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "Models\\SanPham.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Models\\SanPham.cs",
+              "RelativeToolTip": "Models\\SanPham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:09:47.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CtHoaDon.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Models\\CtHoaDon.cs",
+              "RelativeDocumentMoniker": "Models\\CtHoaDon.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Models\\CtHoaDon.cs",
+              "RelativeToolTip": "Models\\CtHoaDon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T10:09:39.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Views\\SanPhams\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Create.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Views\\SanPhams\\Create.cshtml",
+              "RelativeToolTip": "Views\\SanPhams\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T09:43:59.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SanPhamsController.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "Controllers\\SanPhamsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwEAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T09:37:54.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Views\\SanPhams\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Index.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\QLBanHang\\Views\\SanPhams\\Index.cshtml",
+              "RelativeToolTip": "Views\\SanPhams\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T09:30:58.206Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
