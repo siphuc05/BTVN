@@ -1,58 +1,77 @@
 ﻿@model NspDay09LabCF.Models.NspSan_Pham
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Thêm sản phẩm mới";
 }
 
-<h1>Create</h1>
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0"><i class="bi bi-plus-circle"></i> Thêm sản phẩm mới</h4>
+            <a asp-action="Index" class="btn btn-light btn-sm">
+                <i class="bi bi-arrow-left"></i> Quay lại danh sách
+            </a>
+        </div>
 
-<h4>NspSan_Pham</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="nspMaSanPham" class="control-label"></label>
-                <input asp-for="nspMaSanPham" class="form-control" />
-                <span asp-validation-for="nspMaSanPham" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="nspTenSanPham" class="control-label"></label>
-                <input asp-for="nspTenSanPham" class="form-control" />
-                <span asp-validation-for="nspTenSanPham" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="nspHinhAnh" class="control-label"></label>
-                <input asp-for="nspHinhAnh" class="form-control" />
-                <span asp-validation-for="nspHinhAnh" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="nspSoLuong" class="control-label"></label>
-                <input asp-for="nspSoLuong" class="form-control" />
-                <span asp-validation-for="nspSoLuong" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="nspDonGia" class="control-label"></label>
-                <input asp-for="nspDonGia" class="form-control" />
-                <span asp-validation-for="nspDonGia" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="nspLoaiSanPhamId" class="control-label"></label>
-                <input asp-for="nspLoaiSanPhamId" class="form-control" />
-                <span asp-validation-for="nspLoaiSanPhamId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        <div class="card-body" >
+            @* Lưu ý: cần enctype để gửi file *@
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="nspMaSanPham" class="form-label fw-bold"></label>
+                    <input asp-for="nspMaSanPham" class="form-control" placeholder="Nhập mã sản phẩm..." />
+                    <span asp-validation-for="nspMaSanPham" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="nspTenSanPham" class="form-label fw-bold"></label>
+                    <input asp-for="nspTenSanPham" class="form-control" placeholder="Nhập tên sản phẩm..." />
+                    <span asp-validation-for="nspTenSanPham" class="text-danger"></span>
+                </div>
+
+                @* --- Phần chọn file ảnh --- *@
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Hình ảnh sản phẩm</label>
+                    <input type="file" name="HinhAnhFile" class="form-control" />
+                    <span class="text-muted">Chọn ảnh từ máy tính của bạn (JPG, PNG,...)</span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="nspSoLuong" class="form-label fw-bold"></label>
+                    <input asp-for="nspSoLuong" class="form-control" type="number" min="0" placeholder="Nhập số lượng..." />
+                    <span asp-validation-for="nspSoLuong" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="nspDonGia" class="form-label fw-bold"></label>
+                    <input asp-for="nspDonGia" class="form-control" type="number" step="1000" min="0" placeholder="Nhập đơn giá (VNĐ)..." />
+                    <span asp-validation-for="nspDonGia" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="nspLoaiSanPhamId" class="form-label fw-bold">Loại sản phẩm</label>
+                    <<select asp-for="nspLoaiSanPhamId" class="form-select" asp-items="ViewBag.LoaiSanPhamList">
+                        <option value="">-- Chọn loại sản phẩm --</option>
+                    </select>
+                    <span asp-validation-for="nspLoaiSanPhamId" class="text-danger"></span>
+                </div>
+
+                <div class="text-end">
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-save"></i> Lưu sản phẩm
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary ms-2">
+                        <i class="bi bi-x-circle"></i> Hủy bỏ
+                    </a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

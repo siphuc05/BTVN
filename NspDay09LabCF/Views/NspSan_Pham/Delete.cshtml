@@ -1,57 +1,66 @@
 ﻿@model NspDay09LabCF.Models.NspSan_Pham
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Xóa sản phẩm";
 }
 
-<h1>Delete</h1>
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header bg-danger text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0"><i class="bi bi-trash"></i> Xác nhận xóa sản phẩm</h4>
+            <a asp-action="Index" class="btn btn-light btn-sm">
+                <i class="bi bi-arrow-left"></i> Quay lại danh sách
+            </a>
+        </div>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>NspSan_Pham</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nspMaSanPham)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nspMaSanPham)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nspTenSanPham)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nspTenSanPham)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nspHinhAnh)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nspHinhAnh)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nspSoLuong)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nspSoLuong)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nspDonGia)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nspDonGia)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nspLoaiSanPhamId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nspLoaiSanPhamId)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="nspId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+        <div class="card-body">
+            <div class="alert alert-warning">
+                <i class="bi bi-exclamation-triangle-fill"></i>
+                Bạn có chắc chắn muốn <strong>xóa</strong> sản phẩm này không? Thao tác này không thể hoàn tác.
+            </div>
+
+            <dl class="row mb-0">
+                <dt class="col-sm-3 fw-bold">Mã sản phẩm</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.nspMaSanPham)</dd>
+
+                <dt class="col-sm-3 fw-bold">Tên sản phẩm</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.nspTenSanPham)</dd>
+
+                <dt class="col-sm-3 fw-bold">Hình ảnh</dt>
+                <dd class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.nspHinhAnh))
+                    {
+                        <img src="@Model.nspHinhAnh" alt="Hình sản phẩm"
+                             class="img-thumbnail shadow-sm"
+                             style="width:150px; height:150px; object-fit:cover;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted fst-italic">Không có hình ảnh</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3 fw-bold">Số lượng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.nspSoLuong)</dd>
+
+                <dt class="col-sm-3 fw-bold">Đơn giá</dt>
+                <dd class="col-sm-9">@String.Format("{0:N0} VNĐ", Model.nspDonGia)</dd>
+
+                <dt class="col-sm-3 fw-bold">Loại sản phẩm ID</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.nspLoaiSanPhamId)</dd>
+            </dl>
+        </div>
+
+        <div class="card-footer bg-light text-end">
+            <form asp-action="Delete" class="d-inline">
+                <input type="hidden" asp-for="nspId" />
+                <button type="submit" class="btn btn-danger me-2">
+                    <i class="bi bi-trash-fill"></i> Xóa
+                </button>
+            </form>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-x-circle"></i> Hủy bỏ
+            </a>
+        </div>
+    </div>
 </div>

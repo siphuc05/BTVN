@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\controllers\\nspsan_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:controllers\\nspsan_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nspsan_pham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nspsan_pham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nspsan_pham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nspsan_pham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\controllers\\nsploai_san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:controllers\\nsploai_san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nspsan_pham\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nspsan_pham\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\models\\nspsan_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:models\\nspsan_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\models\\nspday09labcfcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:models\\nspday09labcfcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\models\\nsploai_san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:models\\nsploai_san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nspsan_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nspsan_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nspsan_pham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nspsan_pham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nsploai_san_pham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nsploai_san_pham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nsploai_san_pham\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nsploai_san_pham\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nsploai_san_pham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nsploai_san_pham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nsploai_san_pham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nsploai_san_pham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|d:\\laptrinhweb\\demo\\btvn\\nspday09labcf\\views\\nsploai_san_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6DA8407-ECB3-49B9-9E90-DA8AA485B8DA}|NspDay09LabCF.csproj|solutionrelative:views\\nsploai_san_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,33 +78,85 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-17T16:48:57.411Z",
+              "DocumentIndex": 5,
+              "Title": "NspSan_Pham.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Models\\NspSan_Pham.cs",
+              "RelativeDocumentMoniker": "Models\\NspSan_Pham.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Models\\NspSan_Pham.cs",
+              "RelativeToolTip": "Models\\NspSan_Pham.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T17:22:18.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NspSan_PhamController.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Controllers\\NspSan_PhamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NspSan_PhamController.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Controllers\\NspSan_PhamController.cs",
+              "RelativeToolTip": "Controllers\\NspSan_PhamController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwFEAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T17:09:53.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspSan_Pham\\Create.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Create.cshtml",
+              "RelativeToolTip": "Views\\NspSan_Pham\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:08:56.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NspLoai_San_PhamController.cs",
               "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Controllers\\NspLoai_San_PhamController.cs",
               "RelativeDocumentMoniker": "Controllers\\NspLoai_San_PhamController.cs",
-              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Controllers\\NspLoai_San_PhamController.cs*",
-              "RelativeToolTip": "Controllers\\NspLoai_San_PhamController.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Controllers\\NspLoai_San_PhamController.cs",
+              "RelativeToolTip": "Controllers\\NspLoai_San_PhamController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T16:48:51.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspSan_Pham\\Delete.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Delete.cshtml",
+              "RelativeToolTip": "Views\\NspSan_Pham\\Delete.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:08:27.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspSan_Pham\\Edit.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Edit.cshtml",
+              "RelativeToolTip": "Views\\NspSan_Pham\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:06:58.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "NspDay09LabCFContext.cs",
               "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Models\\NspDay09LabCFContext.cs",
               "RelativeDocumentMoniker": "Models\\NspDay09LabCFContext.cs",
@@ -61,6 +165,123 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T16:44:19.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NspLoai_San_Pham.cs",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Models\\NspLoai_San_Pham.cs",
+              "RelativeDocumentMoniker": "Models\\NspLoai_San_Pham.cs",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Models\\NspLoai_San_Pham.cs",
+              "RelativeToolTip": "Models\\NspLoai_San_Pham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T17:35:51.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspSan_Pham\\Index.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Index.cshtml",
+              "RelativeToolTip": "Views\\NspSan_Pham\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:06:32.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T16:48:57.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspSan_Pham\\Details.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspSan_Pham\\Details.cshtml",
+              "RelativeToolTip": "Views\\NspSan_Pham\\Details.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:07:56.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspLoai_San_Pham\\Create.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Create.cshtml",
+              "RelativeToolTip": "Views\\NspLoai_San_Pham\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:04:11.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspLoai_San_Pham\\Delete.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Delete.cshtml",
+              "RelativeToolTip": "Views\\NspLoai_San_Pham\\Delete.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:03:35.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspLoai_San_Pham\\Details.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Details.cshtml",
+              "RelativeToolTip": "Views\\NspLoai_San_Pham\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:03:12.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspLoai_San_Pham\\Edit.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Edit.cshtml",
+              "RelativeToolTip": "Views\\NspLoai_San_Pham\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T17:02:28.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NspLoai_San_Pham\\Index.cshtml",
+              "ToolTip": "D:\\LaptrinhWeb\\Demo\\BTVN\\NspDay09LabCF\\Views\\NspLoai_San_Pham\\Index.cshtml",
+              "RelativeToolTip": "Views\\NspLoai_San_Pham\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T16:56:47.994Z",
               "EditorCaption": ""
             }
           ]

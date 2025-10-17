@@ -13,11 +13,11 @@ namespace NspDay09LabCF.Models
 
         [Display(Name = "Mã loại")]
         [StringLength(10)]
-        public string nspMaLoai { get; set; }
+        public string? nspMaLoai { get; set; }
 
         [Display(Name = "Tên loại")]
         [StringLength(50)]
-        public string nspTenLoai { get; set; }
+        public string? nspTenLoai { get; set; }
 
         [Display(Name = "Trạng thái")]
         public bool nspTrangThai { get; set; }

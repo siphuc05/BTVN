@@ -13,13 +13,13 @@ namespace NspDay09LabCF.Models
         [Display(Name = "Mã sản phẩm")]
         [Required]
         [StringLength(10)]
-        public string nspMaSanPham { get; set; }
+        public string? nspMaSanPham { get; set; }
 
         [Display(Name = "Tên sản phẩm")]
-        public string nspTenSanPham { get; set; }
+        public string? nspTenSanPham { get; set; }
 
         [Display(Name = "Hình ảnh")]
-        public string nspHinhAnh { get; set; }
+        public string? nspHinhAnh { get; set; }
 
         [Display(Name = "Số lượng")]
         public int nspSoLuong { get; set; }
@@ -29,8 +29,8 @@ namespace NspDay09LabCF.Models
 
 
         public long nspLoaiSanPhamId { get; set; }
-
-        public NspLoai_San_Pham nspLoai_San_Pham { get; set; }
+        [ForeignKey("nspLoai_San_PhamnspId")]
+        public NspLoai_San_Pham? nspLoai_San_Pham { get; set; }
 
     }
 }

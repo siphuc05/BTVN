@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO; // thêm
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http; // thêm
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -45,22 +47,50 @@ namespace NspDay09LabCF.Controllers
         // GET: NspSan_Pham/Create
         public IActionResult Create()
         {
+            ViewBag.LoaiSanPhamList = new SelectList(_context.nspLoai_San_Phams, "nspId", "nspTenLoai");
+
             return View();
         }
 
         // POST: NspSan_Pham/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("nspId,nspMaSanPham,nspTenSanPham,nspHinhAnh,nspSoLuong,nspDonGia,nspLoaiSanPhamId")] NspSan_Pham nspSan_Pham)
+        public async Task<IActionResult> Create(
+            [Bind("nspId,nspMaSanPham,nspTenSanPham,nspHinhAnh,nspSoLuong,nspDonGia,nspLoaiSanPhamId")] NspSan_Pham nspSan_Pham,
+            IFormFile HinhAnhFile)
         {
             if (ModelState.IsValid)
             {
+                // Xử lý upload file ảnh nếu có
+                if (HinhAnhFile != null && HinhAnhFile.Length > 0)
+                {
+                    var fileName = Path.GetFileName(HinhAnhFile.FileName);
+                    var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+                    // Tạo thư mục nếu chưa có
+                    if (!Directory.Exists(uploadPath))
+                    {
+                        Directory.CreateDirectory(uploadPath);
+                    }
+
+                    var filePath = Path.Combine(uploadPath, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await HinhAnhFile.CopyToAsync(stream);
+                    }
+
+                    // Gán đường dẫn ảnh vào model (đường dẫn tương đối để hiển thị trong View)
+                    nspSan_Pham.nspHinhAnh = "/images/" + fileName;
+                }
+
                 _context.Add(nspSan_Pham);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            // Nếu lỗi validation -> load lại dropdown
+            ViewBag.LoaiSanPhamList = new SelectList(_context.nspLoai_San_Phams, "nspId", "nspTenLoai");
+
             return View(nspSan_Pham);
         }
 
@@ -77,41 +107,68 @@ namespace NspDay09LabCF.Controllers
             {
                 return NotFound();
             }
+
+            ViewBag.LoaiSanPhamList = new SelectList(_context.nspLoai_San_Phams, "nspId", "nspTenLoai", nspSan_Pham.nspLoaiSanPhamId);
             return View(nspSan_Pham);
         }
 
         // POST: NspSan_Pham/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("nspId,nspMaSanPham,nspTenSanPham,nspHinhAnh,nspSoLuong,nspDonGia,nspLoaiSanPhamId")] NspSan_Pham nspSan_Pham)
+        public async Task<IActionResult> Edit(long id,
+    [Bind("nspId,nspMaSanPham,nspTenSanPham,nspHinhAnh,nspSoLuong,nspDonGia,nspLoaiSanPhamId")] NspSan_Pham nspSan_Pham,
+    IFormFile? HinhAnhFile)
         {
             if (id != nspSan_Pham.nspId)
-            {
                 return NotFound();
-            }
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(nspSan_Pham);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!NspSan_PhamExists(nspSan_Pham.nspId))
+                    // Nếu có upload ảnh mới
+                    if (HinhAnhFile != null && HinhAnhFile.Length > 0)
                     {
-                        return NotFound();
+                        string fileName = Path.GetFileName(HinhAnhFile.FileName);
+                        string uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+
+                        if (!Directory.Exists(uploadPath))
+                            Directory.CreateDirectory(uploadPath);
+
+                        string filePath = Path.Combine(uploadPath, fileName);
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await HinhAnhFile.CopyToAsync(stream);
+                        }
+
+                        nspSan_Pham.nspHinhAnh = "/images/" + fileName;
                     }
                     else
                     {
-                        throw;
+                        // Nếu người dùng không upload ảnh mới → giữ ảnh cũ
+                        var old = await _context.nspSan_Phams.AsNoTracking()
+                                      .FirstOrDefaultAsync(p => p.nspId == id);
+                        if (old != null)
+                            nspSan_Pham.nspHinhAnh = old.nspHinhAnh;
                     }
+
+                    // ✅ Cập nhật thay vì thêm mới
+                    _context.Update(nspSan_Pham);
+                    await _context.SaveChangesAsync();
+
+                    return RedirectToAction(nameof(Index));
                 }
-                return RedirectToAction(nameof(Index));
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.nspSan_Phams.Any(e => e.nspId == nspSan_Pham.nspId))
+                        return NotFound();
+                    else
+                        throw;
+                }
             }
+
+            // Nếu có lỗi validation → load lại dropdown
+            ViewBag.LoaiSanPhamList = new SelectList(_context.nspLoai_San_Phams, "nspId", "nspTenLoai", nspSan_Pham.nspLoaiSanPhamId);
             return View(nspSan_Pham);
         }
 

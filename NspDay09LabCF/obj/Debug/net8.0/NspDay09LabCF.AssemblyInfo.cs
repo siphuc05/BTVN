@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NspDay09LabCF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de188793d4f523c263f56df17ebf4b63d2e53e49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e92f06758bf2060dda138699c5b1b86ee62e13a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("NspDay09LabCF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NspDay09LabCF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

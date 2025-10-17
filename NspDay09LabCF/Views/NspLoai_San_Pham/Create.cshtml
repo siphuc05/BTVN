@@ -1,43 +1,53 @@
 ﻿@model NspDay09LabCF.Models.NspLoai_San_Pham
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Thêm loại sản phẩm";
 }
 
-<h1>Create</h1>
+<div class="container mt-4">
+    <div class="card shadow-sm border-0 rounded-3">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">
+                <i class="bi bi-plus-circle"></i> Thêm loại sản phẩm mới
+            </h4>
+        </div>
 
-<h4>NspLoai_San_Pham</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="nspMaLoai" class="control-label"></label>
-                <input asp-for="nspMaLoai" class="form-control" />
-                <span asp-validation-for="nspMaLoai" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="nspTenLoai" class="control-label"></label>
-                <input asp-for="nspTenLoai" class="form-control" />
-                <span asp-validation-for="nspTenLoai" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="nspTrangThai" /> @Html.DisplayNameFor(model => model.nspTrangThai)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        <div class="card-body">
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="nspMaLoai" class="form-label fw-semibold"></label>
+                    <input asp-for="nspMaLoai" class="form-control" placeholder="Nhập mã loại..." />
+                    <span asp-validation-for="nspMaLoai" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="nspTenLoai" class="form-label fw-semibold"></label>
+                    <input asp-for="nspTenLoai" class="form-control" placeholder="Nhập tên loại..." />
+                    <span asp-validation-for="nspTenLoai" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-4">
+                    <input class="form-check-input" asp-for="nspTrangThai" />
+                    <label class="form-check-label fw-semibold" asp-for="nspTrangThai"></label>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success px-4">
+                        <i class="bi bi-save"></i> Lưu
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">
+                        <i class="bi bi-arrow-left-circle"></i> Quay lại danh sách
+                    </a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
