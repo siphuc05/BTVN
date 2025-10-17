@@ -1,0 +1,65 @@
+﻿@model IEnumerable<NspDay09LabCF.Models.NspSan_Pham>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nspMaSanPham)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nspTenSanPham)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nspHinhAnh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nspSoLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nspDonGia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nspLoaiSanPhamId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nspMaSanPham)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nspTenSanPham)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nspHinhAnh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nspSoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nspDonGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nspLoaiSanPhamId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.nspId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.nspId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.nspId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

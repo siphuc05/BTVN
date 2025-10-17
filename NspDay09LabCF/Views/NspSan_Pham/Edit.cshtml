@@ -1,0 +1,59 @@
+﻿@model NspDay09LabCF.Models.NspSan_Pham
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>NspSan_Pham</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="nspId" />
+            <div class="form-group">
+                <label asp-for="nspMaSanPham" class="control-label"></label>
+                <input asp-for="nspMaSanPham" class="form-control" />
+                <span asp-validation-for="nspMaSanPham" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nspTenSanPham" class="control-label"></label>
+                <input asp-for="nspTenSanPham" class="form-control" />
+                <span asp-validation-for="nspTenSanPham" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nspHinhAnh" class="control-label"></label>
+                <input asp-for="nspHinhAnh" class="form-control" />
+                <span asp-validation-for="nspHinhAnh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nspSoLuong" class="control-label"></label>
+                <input asp-for="nspSoLuong" class="form-control" />
+                <span asp-validation-for="nspSoLuong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nspDonGia" class="control-label"></label>
+                <input asp-for="nspDonGia" class="form-control" />
+                <span asp-validation-for="nspDonGia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nspLoaiSanPhamId" class="control-label"></label>
+                <input asp-for="nspLoaiSanPhamId" class="form-control" />
+                <span asp-validation-for="nspLoaiSanPhamId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

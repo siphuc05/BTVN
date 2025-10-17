@@ -1,0 +1,43 @@
+﻿@model NspDay09LabCF.Models.NspLoai_San_Pham
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>NspLoai_San_Pham</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nspMaLoai" class="control-label"></label>
+                <input asp-for="nspMaLoai" class="form-control" />
+                <span asp-validation-for="nspMaLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nspTenLoai" class="control-label"></label>
+                <input asp-for="nspTenLoai" class="form-control" />
+                <span asp-validation-for="nspTenLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="nspTrangThai" /> @Html.DisplayNameFor(model => model.nspTrangThai)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
